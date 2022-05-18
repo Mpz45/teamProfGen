@@ -95,7 +95,7 @@ function addIntern() {
         const internName = data.internName;
         const internId = data.internId;
         const internEmail = data.internEmail;
-        const teamMember = new intern(internName, internId, internEmail);
+        const teamMember = new Intern(internName, internId, internEmail);
 
         teamProfArr.push(teamMember);
         addNonTeam();

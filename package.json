@@ -1,0 +1,28 @@
+{
+  "name": "teamprofgen",
+  "version": "1.0.0",
+  "description": "This project is a team profile generater. It creates a HTML web page that shows members of a team. The members can include \"Manager\", \"Engineer\", \"Intern\", and \"Employee\". The web page will display a team name and card containers displaying the relevant information of each member.    ## Table of Contents -[Usage](#usage)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mpz45/teamProfGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mpz45/teamProfGen/issues"
+  },
+  "homepage": "https://github.com/Mpz45/teamProfGen#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.0"
+  }
+}
