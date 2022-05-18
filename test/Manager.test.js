@@ -1,7 +1,7 @@
 const Manager = require("../lib/Manager");
 
 test("Get functions", () => {
-    const manager = new Manager("Karan Smith", 666, "Karan6Smith@manager.com", testOfficNum);
+    const manager = new Manager("Karan Smith", 666, "Karan6Smith@manager.com", 23);
     
     //getOfficeNum
     const testOfficNum = 23;

@@ -11,7 +11,7 @@ test("Employee object", () => {
 
 test("Get functions", () => {
     //Employee object
-    const employee = new Employee(testName, testId, testEmail, testRole);
+    const employee = new Employee("John", 1234, "JohnDoe1234@email.com", "Employee");
 
     //getName
     const testName = "John";
